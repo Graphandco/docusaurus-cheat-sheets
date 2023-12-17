@@ -1,0 +1,8 @@
+{
+    "label": "Prestashop",
+    "position": 4,
+    "link": {
+        "type": "generated-index",
+        "description": "Codes utiles pour le développement sur Prestashop"
+    }
+}

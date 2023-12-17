@@ -1,0 +1,66 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+    --contrast-color: #1c1e21;
+    --ifm-color-primary: #2e8555;
+    --ifm-color-primary-dark: #29784c;
+    --ifm-color-primary-darker: #277148;
+    --ifm-color-primary-darkest: #205d3b;
+    --ifm-color-primary-light: #33925d;
+    --ifm-color-primary-lighter: #359962;
+    --ifm-color-primary-lightest: #3cad6e;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+    --contrast-color: #e3e3e3;
+    /* --ifm-color-primary: #25c2a0; */
+    --ifm-color-primary: hsl(218, 64%, 60%);
+    /* --ifm-color-primary-dark: #21af90; */
+    --ifm-color-primary-dark: hsl(218, 64%, 40%);
+    /* --ifm-color-primary-darker: #1fa588; */
+    --ifm-color-primary-darker: hsl(218, 64%, 30%);
+    /* --ifm-color-primary-darkest: #1a8870; */
+    --ifm-color-primary-darkest: hsl(218, 64%, 20%);
+    --ifm-color-primary-light: #29d5b0;
+    --ifm-color-primary-lighter: #32d8b4;
+    --ifm-color-primary-lightest: #4fddbf;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+body {
+    --primary: var(--ifm-color-primary);
+}
+.menu__list .theme-doc-sidebar-item-link-level-2 {
+    position: relative;
+    margin: 0;
+    a {
+        background-color: transparent;
+        font-size: 15px;
+        padding: 4px 10px 4px 15px;
+        &:hover {
+            color: var(--primary);
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 5px;
+            width: 1px;
+            height: 100%;
+            background-color: var(--contrast-color);
+            opacity: 0.2;
+            transition: 0.2s;
+        }
+        &:hover:before,
+        &.menu__link--active:before {
+            opacity: 1;
+        }
+    }
+}
