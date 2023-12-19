@@ -14,8 +14,8 @@ Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+-   [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
+    -   When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
 ## Generate a new site
 
@@ -45,3 +45,15 @@ The `cd` command changes the directory you're working with. In order to work wit
 The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
 Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+
+<iframe height="400" width="100%" scrolling="no" title="toggleActions - ScrollTrigger" src="https://codepen.io/GreenSock/embed/LYVKWGo?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GreenSock/pen/LYVKWGo">
+  toggleActions - ScrollTrigger</a> by GSAP (<a href="https://codepen.io/GreenSock">@GreenSock</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<iframe height="600" width="100%" scrolling="no" title="Jump menu with active class and smooth scroll" src="https://codepen.io/reggio/embed/RwwOxeq?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/reggio/pen/RwwOxeq">
+  Jump menu with active class and smooth scroll</a> by Reggio (<a href="https://codepen.io/reggio">@reggio</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>

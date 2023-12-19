@@ -1,0 +1,23 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    & h1 {
+        margin: 0;
+    }
+    & .button {
+        margin-top: 15px;
+    }
+}
+.features {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.featureSvg {
+    height: 200px;
+    width: 200px;
+}

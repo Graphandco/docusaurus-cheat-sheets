@@ -54,7 +54,10 @@ const config = {
                         "https://github.com/Graphandco/docusaurus-cheat-sheets",
                 },
                 theme: {
-                    customCss: "./src/css/custom.css",
+                    customCss: [
+                        "./src/css/custom.css",
+                        "./src/css/homepage.css",
+                    ],
                 },
             }),
         ],
