@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Afficher des catégories prestashop
+# Afficher des catégories
 
 ```jsx title="Ajouter dans le fichier tpl"
 {$catIDs = [10,12]}
@@ -22,7 +22,7 @@ sidebar_position: 1
 
 ```jsx title="Ajouter dans le frontController"
 public static function getCategoryDetails($id, $lang) {
-	$category = new Category($id, $lang);
-	return $category;
+    $category = new Category($id, $lang);
+    return $category;
 }
 ```
